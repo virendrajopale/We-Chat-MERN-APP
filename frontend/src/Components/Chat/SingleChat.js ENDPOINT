@@ -10,7 +10,7 @@ import axios from 'axios'
 import io from 'socket.io-client'
 import Lottei from 'react-lottie'
 import animationData from '../../Animations/typingAnim.json'
-const ENDPOINT='http://localhost:5001'
+const ENDPOINT='https://we-chat-qr7a.onrender.com'
 var socket,selectedChatCompare
 const SingleChat = ({fetchAgain,setfetchAgain}) => {
     const [messages, setMessages] = useState([]);
