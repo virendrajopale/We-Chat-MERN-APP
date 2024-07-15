@@ -7,7 +7,7 @@
     "start": "node backend/server.js",
     "server":"nodemon backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build":"npm install && npm install --prefix frontend && npm run build --prefix frontend"
+    "build":"npm install && npm install --save-dev @babel/plugin-transform-private-property-in-object && npm install --prefix frontend && npm run build --prefix frontend"
   },
   "author": "",
   "license": "ISC",
